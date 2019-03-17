@@ -1,0 +1,126 @@
+#introtocoding {
+  h1 {
+    text-align: center;
+    margin-bottom: 1.9rem;
+    margin-top: 3rem; // tablet size media queries at 700px
+    @media screen and (min-width: 700px) {
+      font-size: 4rem;
+    } // desktop size media queries at 1200px
+    @media screen and (min-width: 1200px) {
+      margin-top: 9rem;
+    }
+  }
+  h2 {
+    margin-bottom: 1.6rem; // tablet size media queries at 700px
+    @media screen and (min-width: 700px) {
+      font-size: 2rem;
+    } // desktop size media queries at 1200px 
+    @media screen and (min-width: 1200px) {
+      margin-left: 18.9rem;
+      margin-top: 6rem;
+      font-size: 2.2rem;
+    }
+  }
+  p {
+    line-height: 2rem; // tablet size media queries at 700px
+    @media screen and (min-width: 700px) {
+      font-size: 1.2rem;
+    } // desktop size media queries at 1200px 
+    @media screen and (min-width: 1200px) {
+      width: 69%;
+      margin: 0 auto;
+      display: block;
+      font-size: 1.6rem;
+      line-height: 3rem;
+    }
+  }
+}
+
+#codingexample {
+  width: 100%;
+  margin: 3rem 0; // desktop size media queries at 1200px 
+  @media screen and (min-width: 1200px) {
+    width: 69%;
+    margin: 4rem auto;
+    display: block;
+  }
+}
+
+#planet {
+  width: 36%;
+  position: relative;
+  bottom: 14rem;
+  left: 16rem; // tablet size media queries at 700px
+  @media screen and (min-width: 700px) {
+    bottom: 26rem;
+    left: 36rem;
+  } // desktop size media queries at 1200px 
+  @media screen and (min-width: 1200px) {
+    bottom: 39.6rem;
+    left: 68rem;
+    width: 26%;
+  }
+}
+
+#minecraftsword {
+  width: 36%; // desktop size media queries at 1200px 
+  @media screen and (min-width: 1200px) {
+    margin-left: 15rem;
+    width: 26%;
+  }
+}
+
+#polygon {
+  width: 36%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 4rem; // desktop size media queries at 1200px 
+  @media screen and (min-width: 1200px) {
+    width: 19%;
+  }
+}
+
+#why {
+  h1 {
+    text-align: center;
+    margin-bottom: 1.9rem;
+    margin-top: 3rem; // tablet size media queries at 700px
+    @media screen and (min-width: 700px) {
+      font-size: 3rem;
+    }
+  }
+  p {
+    line-height: 2rem; // tablet size media queries at 700px
+    @media screen and (min-width: 700px) {
+      font-size: 1.2rem;
+    } // desktop size media queries at 1200px 
+    @media screen and (min-width: 1200px) {
+      font-size: 1.6rem;
+      line-height: 3rem;
+      width: 69%;
+      margin: 2rem auto;
+      display: block;
+      margin-bottom: 4rem;
+    }
+  }
+}
+
+#learningkids {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr; // desktop size media queries at 1200px 
+  @media screen and (min-width: 1200px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  img:first-child {
+    margin-top: 3rem; // desktop size media queries at 1200px 
+    @media screen and (min-width: 1200px) {
+      margin-top: 0;
+    }
+  }
+  img {
+    width: 30rem;
+    display: block;
+    margin: 0 auto;
+  }
+}

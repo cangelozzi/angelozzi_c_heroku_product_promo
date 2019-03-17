@@ -19,7 +19,7 @@
     width: 4rem;
     height: 4rem;
     top: 70%;
-    animation: linerot_desktop 8s infinite ease-in-out;
+    animation: linerot_desktop 9s infinite ease-in-out;
   }
 }
 
@@ -126,7 +126,11 @@
   p {
     font-size: 1.4rem;
     margin-top: 1rem;
-    line-height: 2.2rem;
+    line-height: 2.2rem; // desktop size media queries at 1200px 
+    @media screen and (min-width: 1200px) {
+      font-size: 1.9rem;
+      line-height: 3rem;
+    }
   } // desktop size media queries at 1200px
   @media screen and (min-width: 1200px) {
     width: 58%;
@@ -185,7 +189,10 @@
 #footerlogo {
   margin: 4rem auto;
   display: block;
-  width: 69%;
+  width: 69%; // desktop size media queries at 1200px
+  @media screen and (min-width: 1200px) {
+    width: 48%;
+  }
 }
 
 #copyright {

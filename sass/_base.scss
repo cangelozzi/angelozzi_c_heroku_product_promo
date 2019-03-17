@@ -29,3 +29,15 @@ body {
     margin-top: 10rem;
   }
 }
+
+.module {
+  padding: 1rem;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 50%;
+  border-image: linear-gradient( to bottom, $grad_1, rgba(250, 112, 209, 0.6), rgba(33, 212, 253, 0.4), $base_bg) 1 100%;
+}
+
+a {
+  cursor: pointer;
+}

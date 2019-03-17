@@ -11,7 +11,8 @@ router.get('/', function(req, res, next) {
 
 /* GET Learn More page. */
 router.get('/learnmore', function (req, res, next) {
-  res.render('learnmore', { title: 'Express', message: "This is an Express App!" });
+  res.render('learnmore', data);
 });
 
 module.exports = router;
+
