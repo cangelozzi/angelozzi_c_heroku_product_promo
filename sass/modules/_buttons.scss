@@ -1,0 +1,48 @@
+.button {
+  border: 1px solid #8A66F4;
+  -webkit-box-shadow: #CCCCCC 0px 1px 0px inset;
+  -moz-box-shadow: #CCCCCC 0px 1px 0px inset;
+  box-shadow: #CCCCCC 0px 1px 0px inset;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: arial, helvetica, sans-serif;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #B29AF8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#B29AF8), to(#9174ED));
+  background-image: -webkit-linear-gradient(top, #B29AF8, #9174ED);
+  background-image: -moz-linear-gradient(top, #B29AF8, #9174ED);
+  background-image: -ms-linear-gradient(top, #B29AF8, #9174ED);
+  background-image: -o-linear-gradient(top, #B29AF8, #9174ED);
+  background-image: linear-gradient(to bottom, #B29AF8, #9174ED);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#B29AF8, endColorstr=#9174ED); 
+  // tablet size media queries at 760px
+  @media screen and (min-width: 760px) {
+    width: 19%;
+  }
+  // desktop size media queries at 1200px
+  @media screen and (min-width: 1200px) {
+    width: 10%;
+  }
+}
+  .button:hover {
+    border: 1px solid #9174ED;
+    background-color: #C9A9FF;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#C9A9FF), to(#9174ED));
+    background-image: -webkit-linear-gradient(top, #C9A9FF, #9174ED);
+    background-image: -moz-linear-gradient(top, #C9A9FF, #9174ED);
+    background-image: -ms-linear-gradient(top, #C9A9FF, #9174ED);
+    background-image: -o-linear-gradient(top, #C9A9FF, #9174ED);
+    background-image: linear-gradient(to bottom, #C9A9FF, #9174ED);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#C9A9FF, endColorstr=#9174ED);
+  }
