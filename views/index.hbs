@@ -1,2 +1,65 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<main class="myContainer">
+
+  {{!-- Animation --}}
+  <div class="loading">
+    <div class="circle" id="c1">
+    </div>
+    <div class="circle" id="c2">
+    </div>
+  </div>
+
+  {{!-- Header Logo & Tagline --}}
+  <img src="/images/logo.svg" alt="main logo" id="logo">
+  <img src="/images/tagline.png" alt="main tagline" id="tagline">
+  <p id="tagtext">{{tagline}}</p>
+  <a class="button" href="/learnmore">LEARN MORE</a>
+
+  {{!-- Infographic and Content--}}
+  <section id="content">
+    <img src="/images/infographic.png" alt="infographic" id="ig">
+    <p id="super_power">{{power}}</p>
+    <p id="tools">{{tools}}</p>
+
+    <div id="whyLearn">
+
+      <div class="learn">
+        <img src="/images/icons/{{whylearn1.img}}" alt="puzzle">
+        <p>{{whylearn1.learn}}</p>
+      </div>
+      <div class="learn">
+        <img src="/images/icons/{{whylearn2.img}}" alt="games">
+        <p>{{whylearn2.learn}}</p>
+      </div>
+      <div class="learn">
+        <img src="/images/icons/{{whylearn3.img}}" alt="cube">
+        <p>{{whylearn3.learn}}</p>
+      </div>
+      <div class="learn">
+        <img src="/images/icons/{{whylearn4.img}}" alt="landscape">
+        <p>{{whylearn4.learn}}</p>
+      </div>
+
+    </div>
+  </section>
+
+  {{!-- About, Social and Footer --}}
+  <section id="homeEnd">
+
+    <div id="about">
+      <h1>About</h1>
+      <p>{{about}}</p>
+    </div>
+
+    <ul id="social">
+      <li><a href="http://www.youtube.com" target="_blank" id="yt"><i class="fab fa-youtube"></i></a></li>
+      <li><a href="http://www.twitter.com" target="_blank" id="tw"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="http://www.instagram.com" target="_blank" id="pt"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="http://www.facebook.com" target="_blank" id="fb"><i class="fab fa-facebook-square"></i></a></li>
+    </ul>
+
+    <img src="/images/logo.svg" alt="main logo" id="footerlogo">
+
+    <p id="copyright">&copy; 2019 by Camillo Angelozzi</p>
+
+  </section>
+</main>
